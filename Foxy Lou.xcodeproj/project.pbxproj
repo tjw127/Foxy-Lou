@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E5418A11FCF1E1E00635E0A /* UrlParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5418A01FCF1E1E00635E0A /* UrlParams.m */; };
+		1E5418A51FCF394C00635E0A /* FoxyLouConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5418A41FCF394C00635E0A /* FoxyLouConsts.m */; };
 		1E7C80601FCDEAD3004CC1CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7C805F1FCDEAD3004CC1CE /* AppDelegate.m */; };
 		1E7C80631FCDEAD3004CC1CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7C80621FCDEAD3004CC1CE /* ViewController.m */; };
 		1E7C80661FCDEAD3004CC1CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E7C80641FCDEAD3004CC1CE /* Main.storyboard */; };
@@ -16,6 +18,16 @@
 		1E7C80711FCDEAD3004CC1CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7C80701FCDEAD3004CC1CE /* main.m */; };
 		1E7C807B1FCDEAD3004CC1CE /* Foxy_LouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7C807A1FCDEAD3004CC1CE /* Foxy_LouTests.m */; };
 		1E7C80861FCDEAD3004CC1CE /* Foxy_LouUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7C80851FCDEAD3004CC1CE /* Foxy_LouUITests.m */; };
+		1E7C80981FCDECAB004CC1CE /* ClothesCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7C80971FCDECAB004CC1CE /* ClothesCollectionViewCell.m */; };
+		1E7C809B1FCDED41004CC1CE /* ClothesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7C809A1FCDED41004CC1CE /* ClothesViewController.m */; };
+		1EA6CAD91FCFAC6A0058F0E8 /* Items.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6CAD71FCFAC690058F0E8 /* Items.m */; };
+		1EA6CADC1FCFAC9B0058F0E8 /* WTSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6CADB1FCFAC9B0058F0E8 /* WTSearch.m */; };
+		1EEE065A1FCF57FD00CE3E80 /* Walmart.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE06591FCF57FD00CE3E80 /* Walmart.m */; };
+		1EEE065E1FCF584300CE3E80 /* WalmartParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE065D1FCF584300CE3E80 /* WalmartParams.m */; };
+		1EEE06631FCF67B400CE3E80 /* WalmartSearchCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE06621FCF67B400CE3E80 /* WalmartSearchCollection.m */; };
+		78E7338BD9690DBB7FD345BC /* libPods-Foxy LouTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC51F7C05396C0E1A924B6B9 /* libPods-Foxy LouTests.a */; };
+		8B644EC66DFE2435A372EC7B /* libPods-Foxy LouUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C51C37D13146030C8E9870 /* libPods-Foxy LouUITests.a */; };
+		F77B224662A192EF29D7307C /* libPods-Foxy Lou.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 149F46C42D5D872E82E2576D /* libPods-Foxy Lou.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041D484BA1E661964E44440F /* Pods-Foxy LouTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foxy LouTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Foxy LouTests/Pods-Foxy LouTests.release.xcconfig"; sourceTree = "<group>"; };
+		044121EE605C54E63CC7DC5E /* Pods-Foxy LouUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foxy LouUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Foxy LouUITests/Pods-Foxy LouUITests.release.xcconfig"; sourceTree = "<group>"; };
+		149F46C42D5D872E82E2576D /* libPods-Foxy Lou.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Foxy Lou.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E54189F1FCF1E1E00635E0A /* UrlParams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UrlParams.h; sourceTree = "<group>"; };
+		1E5418A01FCF1E1E00635E0A /* UrlParams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UrlParams.m; sourceTree = "<group>"; };
+		1E5418A31FCF394C00635E0A /* FoxyLouConsts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoxyLouConsts.h; sourceTree = "<group>"; };
+		1E5418A41FCF394C00635E0A /* FoxyLouConsts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoxyLouConsts.m; sourceTree = "<group>"; };
 		1E7C805B1FCDEAD3004CC1CE /* Foxy Lou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foxy Lou.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E7C805E1FCDEAD3004CC1CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E7C805F1FCDEAD3004CC1CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +72,26 @@
 		1E7C80811FCDEAD3004CC1CE /* Foxy LouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Foxy LouUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E7C80851FCDEAD3004CC1CE /* Foxy_LouUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Foxy_LouUITests.m; sourceTree = "<group>"; };
 		1E7C80871FCDEAD3004CC1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E7C80961FCDECAB004CC1CE /* ClothesCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClothesCollectionViewCell.h; sourceTree = "<group>"; };
+		1E7C80971FCDECAB004CC1CE /* ClothesCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClothesCollectionViewCell.m; sourceTree = "<group>"; };
+		1E7C80991FCDED41004CC1CE /* ClothesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClothesViewController.h; sourceTree = "<group>"; };
+		1E7C809A1FCDED41004CC1CE /* ClothesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClothesViewController.m; sourceTree = "<group>"; };
+		1EA6CAD71FCFAC690058F0E8 /* Items.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Items.m; sourceTree = "<group>"; };
+		1EA6CAD81FCFAC690058F0E8 /* Items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Items.h; sourceTree = "<group>"; };
+		1EA6CADA1FCFAC9B0058F0E8 /* WTSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTSearch.h; sourceTree = "<group>"; };
+		1EA6CADB1FCFAC9B0058F0E8 /* WTSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTSearch.m; sourceTree = "<group>"; };
+		1EEE06581FCF57FD00CE3E80 /* Walmart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Walmart.h; sourceTree = "<group>"; };
+		1EEE06591FCF57FD00CE3E80 /* Walmart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Walmart.m; sourceTree = "<group>"; };
+		1EEE065C1FCF584300CE3E80 /* WalmartParams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalmartParams.h; sourceTree = "<group>"; };
+		1EEE065D1FCF584300CE3E80 /* WalmartParams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalmartParams.m; sourceTree = "<group>"; };
+		1EEE06611FCF67B400CE3E80 /* WalmartSearchCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalmartSearchCollection.h; sourceTree = "<group>"; };
+		1EEE06621FCF67B400CE3E80 /* WalmartSearchCollection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalmartSearchCollection.m; sourceTree = "<group>"; };
+		29C51C37D13146030C8E9870 /* libPods-Foxy LouUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Foxy LouUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D95E04587E58E85574C18E /* Pods-Foxy LouUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foxy LouUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Foxy LouUITests/Pods-Foxy LouUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC51F7C05396C0E1A924B6B9 /* libPods-Foxy LouTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Foxy LouTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D633185EC895F4199C2B7559 /* Pods-Foxy LouTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foxy LouTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Foxy LouTests/Pods-Foxy LouTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0901E273EF2B2A247D6B332 /* Pods-Foxy Lou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foxy Lou.release.xcconfig"; path = "Pods/Target Support Files/Pods-Foxy Lou/Pods-Foxy Lou.release.xcconfig"; sourceTree = "<group>"; };
+		F6CDAEA0ECD68FF31D363C5B /* Pods-Foxy Lou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foxy Lou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Foxy Lou/Pods-Foxy Lou.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77B224662A192EF29D7307C /* libPods-Foxy Lou.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E7338BD9690DBB7FD345BC /* libPods-Foxy LouTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +115,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B644EC66DFE2435A372EC7B /* libPods-Foxy LouUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E5418A21FCF38FF00635E0A /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				1E5418A31FCF394C00635E0A /* FoxyLouConsts.h */,
+				1E5418A41FCF394C00635E0A /* FoxyLouConsts.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
 		1E7C80521FCDEAD3004CC1CE = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +138,8 @@
 				1E7C80791FCDEAD3004CC1CE /* Foxy LouTests */,
 				1E7C80841FCDEAD3004CC1CE /* Foxy LouUITests */,
 				1E7C805C1FCDEAD3004CC1CE /* Products */,
+				7BC7FA1D51DDA6FBC282FA01 /* Pods */,
+				41D1524EC556D4974449F782 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +156,10 @@
 		1E7C805D1FCDEAD3004CC1CE /* Foxy Lou */ = {
 			isa = PBXGroup;
 			children = (
+				1E5418A21FCF38FF00635E0A /* Const */,
+				1E7C80951FCDEBA8004CC1CE /* Controller */,
+				1E7C80941FCDEB89004CC1CE /* Model */,
+				1E7C80931FCDEB5F004CC1CE /* View */,
 				1E7C805E1FCDEAD3004CC1CE /* AppDelegate.h */,
 				1E7C805F1FCDEAD3004CC1CE /* AppDelegate.m */,
 				1E7C80611FCDEAD3004CC1CE /* ViewController.h */,
@@ -135,6 +192,98 @@
 			path = "Foxy LouUITests";
 			sourceTree = "<group>";
 		};
+		1E7C80931FCDEB5F004CC1CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E7C80961FCDECAB004CC1CE /* ClothesCollectionViewCell.h */,
+				1E7C80971FCDECAB004CC1CE /* ClothesCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E7C80941FCDEB89004CC1CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1EEE06571FCF57AC00CE3E80 /* walmart */,
+				1E54189F1FCF1E1E00635E0A /* UrlParams.h */,
+				1E5418A01FCF1E1E00635E0A /* UrlParams.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E7C80951FCDEBA8004CC1CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E7C80991FCDED41004CC1CE /* ClothesViewController.h */,
+				1E7C809A1FCDED41004CC1CE /* ClothesViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1EEE06571FCF57AC00CE3E80 /* walmart */ = {
+			isa = PBXGroup;
+			children = (
+				1EEE06601FCF654900CE3E80 /* data_model */,
+				1EEE065F1FCF652900CE3E80 /* collections */,
+				1EEE065B1FCF580800CE3E80 /* params */,
+				1EEE06581FCF57FD00CE3E80 /* Walmart.h */,
+				1EEE06591FCF57FD00CE3E80 /* Walmart.m */,
+			);
+			path = walmart;
+			sourceTree = "<group>";
+		};
+		1EEE065B1FCF580800CE3E80 /* params */ = {
+			isa = PBXGroup;
+			children = (
+				1EEE065C1FCF584300CE3E80 /* WalmartParams.h */,
+				1EEE065D1FCF584300CE3E80 /* WalmartParams.m */,
+			);
+			path = params;
+			sourceTree = "<group>";
+		};
+		1EEE065F1FCF652900CE3E80 /* collections */ = {
+			isa = PBXGroup;
+			children = (
+				1EEE06611FCF67B400CE3E80 /* WalmartSearchCollection.h */,
+				1EEE06621FCF67B400CE3E80 /* WalmartSearchCollection.m */,
+			);
+			path = collections;
+			sourceTree = "<group>";
+		};
+		1EEE06601FCF654900CE3E80 /* data_model */ = {
+			isa = PBXGroup;
+			children = (
+				1EA6CADA1FCFAC9B0058F0E8 /* WTSearch.h */,
+				1EA6CADB1FCFAC9B0058F0E8 /* WTSearch.m */,
+				1EA6CAD81FCFAC690058F0E8 /* Items.h */,
+				1EA6CAD71FCFAC690058F0E8 /* Items.m */,
+			);
+			path = data_model;
+			sourceTree = "<group>";
+		};
+		41D1524EC556D4974449F782 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				149F46C42D5D872E82E2576D /* libPods-Foxy Lou.a */,
+				CC51F7C05396C0E1A924B6B9 /* libPods-Foxy LouTests.a */,
+				29C51C37D13146030C8E9870 /* libPods-Foxy LouUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BC7FA1D51DDA6FBC282FA01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6CDAEA0ECD68FF31D363C5B /* Pods-Foxy Lou.debug.xcconfig */,
+				E0901E273EF2B2A247D6B332 /* Pods-Foxy Lou.release.xcconfig */,
+				D633185EC895F4199C2B7559 /* Pods-Foxy LouTests.debug.xcconfig */,
+				041D484BA1E661964E44440F /* Pods-Foxy LouTests.release.xcconfig */,
+				45D95E04587E58E85574C18E /* Pods-Foxy LouUITests.debug.xcconfig */,
+				044121EE605C54E63CC7DC5E /* Pods-Foxy LouUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +291,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E7C808A1FCDEAD3004CC1CE /* Build configuration list for PBXNativeTarget "Foxy Lou" */;
 			buildPhases = (
+				43756388DD86AB0688AB1DEE /* [CP] Check Pods Manifest.lock */,
 				1E7C80571FCDEAD3004CC1CE /* Sources */,
 				1E7C80581FCDEAD3004CC1CE /* Frameworks */,
 				1E7C80591FCDEAD3004CC1CE /* Resources */,
+				6D3673807C55B1E47E31BAFB /* [CP] Embed Pods Frameworks */,
+				725CDB82B9E30A655846D035 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,9 +311,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E7C808D1FCDEAD3004CC1CE /* Build configuration list for PBXNativeTarget "Foxy LouTests" */;
 			buildPhases = (
+				F06EFB942B7D21F461B83913 /* [CP] Check Pods Manifest.lock */,
 				1E7C80721FCDEAD3004CC1CE /* Sources */,
 				1E7C80731FCDEAD3004CC1CE /* Frameworks */,
 				1E7C80741FCDEAD3004CC1CE /* Resources */,
+				CAC109E6FF79C56D81DA7CCE /* [CP] Embed Pods Frameworks */,
+				6DF15E4DA5CC94E1BD7894DC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,9 +332,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E7C80901FCDEAD3004CC1CE /* Build configuration list for PBXNativeTarget "Foxy LouUITests" */;
 			buildPhases = (
+				6154FC27A7F6EF88D723C047 /* [CP] Check Pods Manifest.lock */,
 				1E7C807D1FCDEAD3004CC1CE /* Sources */,
 				1E7C807E1FCDEAD3004CC1CE /* Frameworks */,
 				1E7C807F1FCDEAD3004CC1CE /* Resources */,
+				82EBB3B76F746627BE397293 /* [CP] Embed Pods Frameworks */,
+				A37371E828016B342B046E8E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,14 +421,175 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43756388DD86AB0688AB1DEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foxy Lou-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6154FC27A7F6EF88D723C047 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foxy LouUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D3673807C55B1E47E31BAFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Foxy Lou/Pods-Foxy Lou-frameworks.sh",
+				"${PODS_ROOT}/WalmartOpenApi/WalmartOpenApi.framework",
+				"${PODS_ROOT}/WalmartSDKKit/WalmartSDKKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WalmartOpenApi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WalmartSDKKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Foxy Lou/Pods-Foxy Lou-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DF15E4DA5CC94E1BD7894DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Foxy LouTests/Pods-Foxy LouTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		725CDB82B9E30A655846D035 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Foxy Lou/Pods-Foxy Lou-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82EBB3B76F746627BE397293 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Foxy LouUITests/Pods-Foxy LouUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A37371E828016B342B046E8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Foxy LouUITests/Pods-Foxy LouUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAC109E6FF79C56D81DA7CCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Foxy LouTests/Pods-Foxy LouTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F06EFB942B7D21F461B83913 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foxy LouTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E7C80571FCDEAD3004CC1CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EA6CAD91FCFAC6A0058F0E8 /* Items.m in Sources */,
+				1EEE065A1FCF57FD00CE3E80 /* Walmart.m in Sources */,
 				1E7C80691FCDEAD3004CC1CE /* Foxy_Lou.xcdatamodeld in Sources */,
+				1EA6CADC1FCFAC9B0058F0E8 /* WTSearch.m in Sources */,
+				1E5418A11FCF1E1E00635E0A /* UrlParams.m in Sources */,
+				1E5418A51FCF394C00635E0A /* FoxyLouConsts.m in Sources */,
+				1EEE065E1FCF584300CE3E80 /* WalmartParams.m in Sources */,
+				1E7C809B1FCDED41004CC1CE /* ClothesViewController.m in Sources */,
 				1E7C80631FCDEAD3004CC1CE /* ViewController.m in Sources */,
 				1E7C80711FCDEAD3004CC1CE /* main.m in Sources */,
+				1EEE06631FCF67B400CE3E80 /* WalmartSearchCollection.m in Sources */,
+				1E7C80981FCDECAB004CC1CE /* ClothesCollectionViewCell.m in Sources */,
 				1E7C80601FCDEAD3004CC1CE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +751,7 @@
 		};
 		1E7C808B1FCDEAD3004CC1CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CDAEA0ECD68FF31D363C5B /* Pods-Foxy Lou.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +766,7 @@
 		};
 		1E7C808C1FCDEAD3004CC1CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0901E273EF2B2A247D6B332 /* Pods-Foxy Lou.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,6 +781,7 @@
 		};
 		1E7C808E1FCDEAD3004CC1CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D633185EC895F4199C2B7559 /* Pods-Foxy LouTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -475,6 +797,7 @@
 		};
 		1E7C808F1FCDEAD3004CC1CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 041D484BA1E661964E44440F /* Pods-Foxy LouTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -490,6 +813,7 @@
 		};
 		1E7C80911FCDEAD3004CC1CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D95E04587E58E85574C18E /* Pods-Foxy LouUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A6V9FG9XPN;
@@ -504,6 +828,7 @@
 		};
 		1E7C80921FCDEAD3004CC1CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 044121EE605C54E63CC7DC5E /* Pods-Foxy LouUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A6V9FG9XPN;
